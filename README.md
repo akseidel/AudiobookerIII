@@ -59,6 +59,10 @@ After downloading your system might have automatically extracted AudiobookerII f
 -   Repeat this process for all the CDs, but after the last CD is ejected do this next step to end the process.
 -   Reinsert the last CD. AudiobookerII will show again. Press the **Quit** button in the AudiobookerII dialog. The CD will eject and AudiobookerII closes out.
 
+#### AudiobookerII Imported Audiobooks Are Playlists
+
+-   AudiobookerII creates a playlist for each imported audiobook CD set. The playlist names will start with the text "-Abk" so that they will be more distinguishable in the iTunes playlist lists and so that they naturally group.
+
 #### A Note For The Next Audiobook
 
 -   **Make sure to update the Book,Author,CD number entry!** AudiobookerII cannot read the CD to figure out the audiobook's name, author etc. The information you see in the the entry field is for your last read audiobook. Forgetting to update the information will screwup your last imported audiobook.
