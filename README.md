@@ -61,7 +61,7 @@ After downloading your system might have automatically extracted AudiobookerII f
 
 #### AudiobookerII Imported Audiobooks Are Playlists
 
--   AudiobookerII creates a playlist for each imported audiobook CD set. The playlist names will start with the text "-Abk" so that they will be more distinguishable in the iTunes playlist lists and so that they naturally group.
+-   AudiobookerII creates a playlist for each imported audiobook CD set. The playlist names will start with the text "-ABk" so that they will be more distinguishable in the iTunes playlist lists and so that they naturally group.
 
 #### A Note For The Next Audiobook
 
