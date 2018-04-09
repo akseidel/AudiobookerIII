@@ -20,7 +20,7 @@ You actually do not have to "install" AudiobookerII to be an iTunes Applescript.
 
 Installing AudiobookerII involves moving the correct AudiobookerII Applescript "-AudiobookerII" file to the iTunes **Scripts** folder where iTunes looks for Applescript script files. The iTunes **Scripts** folder is in the users' **Library** folder. Be warned, on more recent Macs the user's **Library** folder is hidden from view.
 
-#### Download: **[~AudiobookerII](/~AudiobookerII.zip)**
+#### Download: **[~AudiobookerII](~AudiobookerII.zip)**
 
 When downloaded your system might have automatically extracted the zip file's contents. The result should be the application "bundle" file named "-AudiobookerII". On some older systems the AudiobookerII Applescript file might appear as "-AudiobookerII.app".
 
