@@ -22,7 +22,7 @@ Installing AudiobookerII involves placing the correct AudiobookerII Applescript 
 
 #### Download: **[AudiobookerII.zip](TheDownload/AudiobookerII.zip)**
 
-After downloading your system might have automatically extracted AudiobookerII from the zip file's contents. The result should be the application "bundle" file named "-AudiobookerII". On some older systems the AudiobookerII Applescript file might appear as "-AudiobookerII.app".
+After downloading your system might have automatically extracted AudiobookerII from the zip file's contents. The result should be the application "bundle" file named "-AudiobookerII". Double clicking the downloaded zip file usually extracts a zip file's contents. Extract the zip file's contents yourself if that did not happen automatically. On some older systems the AudiobookerII Applescript file might appear as "-AudiobookerII.app".
 
 #### Follow these steps for installing AudiobookerII (Mac OS X):
 
