@@ -1,4 +1,4 @@
-# AudiobookerIII/AudiobookerII
+# AudiobookerIII / AudiobookerII
 
 -   AudiobookerIII is a utility for **Apple Music** on Apple computers that imports audio book CDs for listening on an iPhone, iPad or iPod. On older Apple computers having **Apple iTunes** AudiobookerII is the Audiobooker version to use. AudiobookerII is essentially the same as AudiobookerIII. The former 'tells' **iTunes** what to do while the latter 'tells' **Music** what to do.
 -   Audiobooker will consistently, without error, easily and correctly prepare public library borrowed CD audio books for iPod and iPhone listening.
@@ -7,37 +7,36 @@
 -   Audiobooker creates a **playlist** containing all the audio book's CD collection content. The **playlist** audio tracks are appropriately named, properly sequenced and their meta data set for book listening. After you have typed in the book title and author the only thing you do next is load the correct next CDs. Audiobooker tells you which next CD number you should load.
 -   The audio book playlist "tracks" will be named in a sensible manner so you can understand what they are and where you are in the audio book as you listen. If you have ever manually loaded audio book CDs using conventional means you know the CDs track names are typically useless and too numerous to manually edit.
 
-### How To Install AudiobookerIII (AudibookerII)
+### Audiobooker Install Overview
+-   AudiobookerIII (AudibookerII) is a "run only" Applescript "bundle" file that directs **Apple Music**, in the case of AudiobookerIII, or that directs **Apple iTunes**, in the case of AudiobookerII. The respective Applescript files are named **~AudiobookerIII** and **~AudiobookerII**. These files are in a zip you download from this repository.
+-   You install the Applescript bundle by placing the correct bundle file into the **Music** **Scripts** folder or the **iTunes** **Scripts** folder. These **Scripts** folders are in your **user** **Library** folder. On newer computers having **Music** instead of **iTunes** you probably need to create the **Music** **Scripts** folder. The **Library** folder is normally hidden. An automatic installer has not been made, so you will need to closely follow these instructions.
+-   You actually do not have to "install" the AudiobookerIII or AudiobookerII Applescripts. They can run by themselves, and that might happen if you are too click-happy when handling them, but it makes sense to install them because they are used only in context with **Apple Music** or **Apple iTunes**. Once "installed" you will see them in the **Apple Music** and **Apple iTunes** menu interfaces.
 
-AudiobookerIII (AudibookerII) is a "run only" Applescript "bundle" file that directs **Apple Music**, in the case of AudiobookerIII, or that directs **Apple iTunes**, in the case of AudiobookerII. The respective Applescript files are named **~AudiobookerIII** and **~AudiobookerII**. Applescript files are add-in programs that can control Apple programs.
+### Step By Step Install Instructions
 
-You actually do not have to "install" the AudiobookerIII or AudiobookerII Applescripts. They can run by themselves, but it makes sense to install them because they are used only in context with **Apple Music** or **Apple iTunes**. Once "installed" you will see them in the **Apple Music** and **Apple iTunes** menu interfaces.
+-   #### Download: **[AudiobookerIII_II.zip](TheDownload/AudiobookerIII_II.zip)** 
 
-Install the Applescript bundle by placing the correct bundle file into the **Music** **Scripts** folder or the **iTunes** **Scripts** folder. These **Scripts** folders are in your **user** **Library** folder. On newer computers having **Music** instead of **iTunes** you probably need to create the **Music** **Scripts** folder. The **Library** folder is normally hidden. An automatic installer has not been made, so you will need to closely follow these instructions.
+-   After downloading your system might have automatically extracted AudiobookerIII and AudiobookerII from the zip file's contents. The extracted results should be the application "bundle" files named **~AudiobookerIII** and **~AudiobookerII**. If extracting the zip file contents did not happen automatically then double clicking the downloaded zip file usually extracts a zip file's contents. On some older systems the Applescript files might appear as **~AudiobookerIII.app** and **~AudiobookerII.app**.
 
-#### Download: **[AudiobookerIII_II.zip](TheDownload/AudiobookerIII_II.zip)**
+-   #### Follow these steps for installing AudiobookerIII (newer Mac OS X with Apple Music):
 
-After downloading your system might have automatically extracted AudiobookerIII and AudiobookerII from the zip file's contents. The extracted results should be the application "bundle" files named **~AudiobookerIII** and **~AudiobookerII**. If extracting the zip file contents did not happen automatically then double clicking the downloaded zip file usually extracts a zip file's contents. On some older systems the Applescript files might appear as **~AudiobookerIII.app** and **~AudiobookerII.app**.
-
-#### Follow these steps for installing AudiobookerIII (newer Mac OS X with Apple Music):
-
--   Quit the **Music** application if it happens to be running.
--   Locate your home **Library** folder. The **Library** folder is normally hidden on Macs. Select the **Go** at the **Finder** top menu. Do that again while also pressing the **option** key on your keyboard. _( **option** key is between **control** and **command** to the left of the keyboard space bar.)_ You will see **Library** added to the list of places to go. Select **Library**. The **Finder** will open that **Library** folder.
--   In the library folder locate and open the **Music** folder. Create that folder if it did not exist.
--   Inside this **Music** folder, create a new folder named **Scripts** if one does not exist. There might already be a **Scripts** folder there. Older computers that were upgraded from previous Apple OS systems that did have iTunes could have a leftover **iTunes/Scripts** folder. That is **not** the folder you are looking for when installing for **Apple Music**.
--   Place the script file named **-AudiobookerIII** in the newly created Scripts folder. By the way, the tilde "~" character in the name **~AudiobookerIII** makes that script show up at the top of the available scripts list. 
--   Delete the **-AudiobookerII** file that was also extracted from the download. It is for **Apple iTunes** and will not work unless you have **iTunes**.
--   Launch **Music**. A **Music** Script menu ![](DocIconImage.png) item displaying the script collection will now be available in the top menu bar. You should see **~AudiobookerIII** in the ![](DocIconImage.png) pull down menu.
+    -   Quit the **Music** application if it happens to be running.
+    -   Locate your home **Library** folder. The **Library** folder is normally hidden on Macs. Select the **Go** at the **Finder** top menu. Do that again while also pressing the **option** key on your keyboard. _( **option** key is between **control** and **command** to the left of the keyboard space bar.)_ You will see **Library** added to the list of places to go. Select **Library**. The **Finder** will open that **Library** folder.
+    -   In the library folder locate and open the **Music** folder. Create that folder if it did not exist.
+    -   Inside this **Music** folder, create a new folder named **Scripts** if one does not exist. There might already be a **Scripts** folder there. Older computers that were upgraded from previous Apple OS systems that did have iTunes could have a leftover **iTunes/Scripts** folder. That is **not** the folder you are looking for when installing for **Apple Music**.
+    -   Place the script file named **-AudiobookerIII** in the newly created Scripts folder. By the way, the tilde "~" character in the name **~AudiobookerIII** makes that script show up at the top of the available scripts list. 
+    -   Delete the **-AudiobookerII** file that was also extracted from the download. It is for **Apple iTunes** and will not work unless you have **iTunes**.
+    -   Launch **Music**. A **Music** Script menu ![](DocIconImage.png) item displaying the script collection will now be available in the top menu bar. You should see **~AudiobookerIII** in the ![](DocIconImage.png) pull down menu.
 
 
-#### Follow these steps for installing AudiobookerII (Mac OS X with Apple iTunes):
+-   #### Follow these steps for installing AudiobookerII (Mac OS X with Apple iTunes):
 
--   Quit the **iTunes** application if it happens to be running.
--   Locate your home **Library** folder. The **Library** folder is hidden on newer Macs. Select the **Go** at the **Finder** top menu. Do that again while also pressing the **option** key on your keyboard. _( **option** key is between **control** and **command** to the left of the keyboard space bar.)_ You will see **Library** added to the list of places to go. Select **Library**. The **Finder** will open that **Library** folder.
--   In the library folder locate and open the **iTunes** folder. Create that folder if it does not exist.
--   Inside this **iTunes** folder, create a new folder named **Scripts** if one does not exist. There might already be a **Scripts** folder there.
--   Place the script file named **~AudiobookerII** in the newly created Scripts folder. By the way, the tilde "~" character in the name **-AudiobookerII** makes that script show up at the top of the available scripts list. Delete the **-AudiobookerIII** file. It is for **Apple Music**.
--   Launch **iTunes**. An **iTunes** Script menu ![](DocIconImage.png) item displaying the script collection will now be available in the menu bar. You should see **~AudiobookerII** in the ![](DocIconImage.png) pull down menu.
+    -   Quit the **iTunes** application if it happens to be running.
+    -   Locate your home **Library** folder. The **Library** folder is hidden on newer Macs. Select the **Go** at the **Finder** top menu. Do that again while also pressing the **option** key on your keyboard. _( **option** key is between **control** and **command** to the left of the keyboard space bar.)_ You will see **Library** added to the list of places to go. Select **Library**. The **Finder** will open that **Library** folder.
+    -   In the library folder locate and open the **iTunes** folder. Create that folder if it does not exist.
+    -   Inside this **iTunes** folder, create a new folder named **Scripts** if one does not exist. There might already be a **Scripts** folder there.
+    -   Place the script file named **~AudiobookerII** in the newly created Scripts folder. By the way, the tilde "~" character in the name **-AudiobookerII** makes that script show up at the top of the available scripts list. Delete the **-AudiobookerIII** file. It is for **Apple Music**.
+    -   Launch **iTunes**. An **iTunes** Script menu ![](DocIconImage.png) item displaying the script collection will now be available in the menu bar. You should see **~AudiobookerII** in the ![](DocIconImage.png) pull down menu.
 
 ## Using AudiobookerIII (same for AudiobookerII)
 
@@ -80,13 +79,13 @@ After downloading your system might have automatically extracted AudiobookerIII 
 
 #### The original Audiobooker's information by David Mundie:
 
-Audiobooks have several characteristics that make ripping them different from ripping music CD's. For one thing, most audiobooks are not in CCDB, so that their metadata must be entered by hand. For another, they consist of multiple CD's where the order of the tracks is crucial, and where the track names should usually be generated automatically based on album name, CD number, and track number - it is pretty confusing to have all the first tracks in all the CD's of an audiobook be named "Track 1".
+"Audiobooks have several characteristics that make ripping them different from ripping music CD's. For one thing, most audiobooks are not in CCDB, so that their metadata must be entered by hand. For another, they consist of multiple CD's where the order of the tracks is crucial, and where the track names should usually be generated automatically based on album name, CD number, and track number - it is pretty confusing to have all the first tracks in all the CD's of an audiobook be named "Track 1".
 
 The Audiobooker script provides a convenient interface for ripping audiobooks. It shows the user the current book name, author name, and CD number, and allows that information to be corrected. For example, it might prompt for "War and Peace, Tolstoy, 1". It then imports multiple CD's, placing them all in a playlist named for the book, and numbering the tracks intelligently, using the first word of the title plus the CD and track number. In the example, it will create a playlist named "War and Peace", and name the tracks "WarandPeace-01-01", "WarWarandPeace-01-02", etc. This style of track name facilitates listening to the audiobook on an iPod.
 
 As each CD is finished, the script waits for the user to insert another one before proceeding. The status of the script is stored in a file in the **iTunes** folder of the user's Application Support folder.
 
-The script illustrates a number of useful techniques: using Unix "mkdir -p" for easy creation of directories (this is quite painful in Applescript itself); waiting for disk insertion; and detecting the Audio CD playlist
+The script illustrates a number of useful techniques: using Unix "mkdir -p" for easy creation of directories (this is quite painful in Applescript itself); waiting for disk insertion; and detecting the Audio CD playlist"
 
 ### Revisions to the original Audiobooker:
 
