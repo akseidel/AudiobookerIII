@@ -1,7 +1,7 @@
 # AudiobookerIII/AudiobookerII
 
 -   AudiobookerIII is a utility for **Apple Music** on Apple computers that imports audio book CDs for listening on an iPhone, iPad or iPod. On older Apple computers having **Apple iTunes** AudiobookerII is the Audiobooker version to use. AudiobookerII is essentially the same as AudiobookerIII. The former 'tells' **iTunes** what to do while the latter 'tells' **Music** what to do.
--   Audiobooker will consistently, without error, easily and correctly prepare public library borrowed CD audio books on a weekly basis for iPod and later iPhone listening.
+-   Audiobooker will consistently, without error, easily and correctly prepare public library borrowed CD audio books for iPod and iPhone listening.
 -   AudiobookerIII and AudiobookerII are revisions to the original 4/7/2003 Audiobooker by David Mundie that was posted by Doug Adams at Doug's AppleScripts for **Apple iTunes**. AudiobookerII came about ten years after Audiobooker's last posted version. Seven years later Apple's **iTunes** name change to **Music** necessitated AudiobookerIII.  
 ### So exactly what does AudiobookerIII (AudibookerII) do?
 -   Audiobooker creates a **playlist** containing all the audio book's CD collection content. The **playlist** audio tracks are appropriately named, properly sequenced and their meta data set for book listening. After you have typed in the book title and author the only thing you do next is load the correct next CDs. Audiobooker tells you which next CD number you should load.
