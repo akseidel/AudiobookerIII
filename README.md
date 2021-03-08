@@ -5,7 +5,7 @@
 -   AudiobookerIII and AudiobookerII are revisions to the original 4/7/2003 Audiobooker by David Mundie that was posted by Doug Adams at Doug's AppleScripts for **Apple iTunes**. AudiobookerII came about ten years after Audiobooker's last posted version. Seven years later Apple's **iTunes** name change to **Music** necessitated AudiobookerIII.  
 ### So exactly what does AudiobookerIII (AudibookerII) do?
 -   Audiobooker creates a **playlist** containing all the audio book's CD collection content. The **playlist** audio tracks are appropriately named, properly sequenced and their meta data set for book listening. After you have typed in the book title and author the only thing you do next is load the correct next CDs. Audiobooker tells you which next CD number you should load.
--   The audio book playlist "tracks" will be named in a sensible manner so you can understand what they are and where you are in the audio book as you listen. If you have ever manually loaded audio book CDs using conventional means you know the CDs track names are typically useless too numerous to manually edit.
+-   The audio book playlist "tracks" will be named in a sensible manner so you can understand what they are and where you are in the audio book as you listen. If you have ever manually loaded audio book CDs using conventional means you know the CDs track names are typically useless and too numerous to manually edit.
 
 ### How To Install AudiobookerIII (AudibookerII)
 
