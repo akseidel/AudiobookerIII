@@ -7,7 +7,7 @@
 ## So exactly what does AudiobookerIII (AudibookerII) do?
 
 - Audiobooker creates a **playlist** containing all the audio book's CD collection content. The **playlist** audio tracks are appropriately named, properly sequenced and their meta data set for book listening. After you have typed in the book title and author the only thing you do next is load the correct next CDs. Audiobooker tells you which next CD number you should load.
-- The audio book playlist "tracks" will be named in a sensible manner so you can understand what they are and where you are in the audio book as you listen. If you have ever manually loaded audio book CDs using conventional means you know the CDs track names are typically useless and too numerous to manually edit.
+- The audio book playlist "tracks" will be named in a sensible manner so you can understand what they are and where you are in the audio book as you listen. If you have ever manually loaded audio book CDs using conventional means you know the CDs' track names are typically useless and too numerous to manually edit.
 
 ### Audiobooker Install Overview
 
@@ -69,7 +69,7 @@
 - Audiobooker will show again the CD Importing dialog, but this time the CD number in the text entry field will have been automatically updated for you. Refer to that number to tell you what CD number to insert when you realize you have forgotten where you are in the process.
 - Press the OK button.
 - Repeat this process for all the CDs, **but after the last CD is ejected do this next step to end the process.**
-- Reinsert the last CD. The Audiobooker dialog will show again ready for a next non-existing CD. Press the **Quit** button in the CD Importing dialog. The CD will eject and Audiobooker closes out.
+- Reinsert the last CD. The Audiobooker dialog will show again ready for a next non-existing CD number. Press the **Quit** button in the CD Importing dialog. The CD will eject and Audiobooker closes out.
 
 #### Imported Audio books Are Playlists
 
